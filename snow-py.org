@@ -1,0 +1,27 @@
+#+TITLE: Snowing Terminal ScreenSaver
+#+DATE: 3/24/2020
+
+* Purpose
+This application is meant to be a "learn curses" and "learn gui programming" type thing. The application should (1) draw snow at the top from a list of "snowlike" characters, (2) have the snow fall to the bottom of the screen, and (3) stick there.
+** TODO Functions (basic functionality) [6/6]
++ [X] main loop
++ [X] draw snowflake [3/3]
+  + [X] create a flakee
+  + [X] create a whole screen length of flakes
+  + [X] draw the snow
++ [X] Move Snowflake
++ [X] Make snow gather at the bottom [2/2]
+  + [X] stops at a certain height
+  + [X] goes on top of objects/drawn topography at bottom
++ [X] Get Screen Size
++ [X] snowflake dict
+** TODO Added Functionality [2/2]
++ [X] place a cabin in there
+  + [X] have snow gather around the cabin
++ [X] add the moon and maybe some stars idk
+  + These have to be in the background (separate drawing function BEFORE the snowfall)
++ [ ] snow packs down into stacks after more than 3 flakes hit it. the new top is whatever the last flake was (for example: *###)
+** Thoughts
++ draw a line of snow -> move it down -> draw the new line of snow -> repeat
+
+
